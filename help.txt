@@ -1,1 +1,31 @@
+  GNU nano 2.2.6                                    File: help.txt                                                                               
+
+-------------------------------------------------------WELCOME TO RITWICK's C++ PROGRAMMING-----------------------------------------------------$
+
+1. Type help to open this text document.
+2. Type sh start.sh to begin writing programs.
+3. The script will automatically create a new directory and cpp file.
+3. Type nano followed by file name to edit it.
+4. Type dir followed by name to make a new directory.
+5. Type compile followed by program name to compile it.
+6. Type ./ followed by file name to run it.
+7. If you do not wish to see this text document evertime,
+   in the next text document, remove the lines -
+   nano help.txt
+   nano star.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
