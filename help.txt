@@ -1,6 +1,4 @@
-  GNU nano 2.2.6                                    File: help.txt                                                                               
-
--------------------------------------------------------WELCOME TO RITWICK's C++ PROGRAMMING-----------------------------------------------------$
+---------------------------------------------WELCOME TO RITWICK's C++ PROGRAMMING-----------------------------------------------------
 
 1. Type help to open this text document.
 2. Type sh start.sh to begin writing programs.
