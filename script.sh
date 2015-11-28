@@ -18,23 +18,27 @@ cat << EOF
 			▒█▄▄█ 　 ▒█░░░ ▀▀▀ ░▀▀▀ ▀▀▀ 　 ▒█░░░ 
 
 EOF
+echo "+--------------------------------------------+"
+echo "| Hello $USER"
+echo "| Today is \c ";date 
+echo "| Number of user login : \c" ; who | wc -l
 
 alias compile="g++"
 alias help="nano help.txt"
 
-echo ""
-echo " Choose one of the following options : ";
-echo ""
-echo " 0. Open existing file. ";
-echo " 1. Open a new file and start writing code. ";
-echo " 2. Open help.{does nothing}";
-echo " 3. Compile your file. ";
-echo " 4. Rename your compiled file";
-echo " 5. Run your program. "; 
-echo " 6. Make a new folder. ";
-echo " 7. Tansfer files to new folder";
-echo " 8. Exit ";
-echo ""
+echo "+--------------------------------------------+"
+echo "| Choose one of the following options:       |";
+echo "|                                            |";
+echo "| 0. Open existing file.                     |";
+echo "| 1. Open a new file and start writing code. |";
+echo "| 2. Open help.{does nothing}                |";
+echo "| 3. Compile your file.                      |";
+echo "| 4. Rename your compiled file               |";
+echo "| 5. Run your program.                       |"; 
+echo "| 6. Make a new folder.                      |";
+echo "| 7. Tansfer files to new folder             |";
+echo "| 8. Exit                                    |";
+echo "+--------------------------------------------+"
 echo ""
 read -p " Enter your choice: " choice
 echo ""
@@ -83,10 +87,10 @@ else
 					if [ $choice = "5" ]; then
 						read -p "Enter program name to run: " runp
 						clear
-						echo "Output: "
-						echo ""
-						./$runp
-						echo ""
+						echo "      Output: ";
+						echo "+------------------+";
+						echo "      ";
+						./$runp  
 						echo "" 
 						echo ""
 						echo ""
@@ -114,7 +118,7 @@ else
 
 
 								fi
-			fi				
+							fi				
 						fi
 					fi
 				fi
