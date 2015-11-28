@@ -1,5 +1,5 @@
 # Portable_programmer
-Work on banana pro at [http://forum.lemaker.org/forum.php?mod=viewthread&tid=11702&extra=](Lemaker)
+Work on banana pro at [**Lemaker**](http://forum.lemaker.org/forum.php?mod=viewthread&tid=11702&extra=)
 
 ## Intro
 The **portable programmer** is a small device based on Banana pro, a single board computer.
@@ -10,4 +10,4 @@ once saved, the file will be automatically compile using **g++** and executed.
 The work is limited to my knowlegde about shell scripting, fork this repo, help make it better **^_^**
 
 #### Watch it in action 
-[https://www.youtube.com/watch?v=DM2aRbLIokQ](**YouTube**)
+[**YouTube**](https://www.youtube.com/watch?v=DM2aRbLIokQ)
